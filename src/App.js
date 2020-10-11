@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cards } from './components'
+import { Cards,Chart } from './components'
 import Styles from './App.module.css'
 import fetchData from './api'
 
@@ -23,6 +23,7 @@ export default class App extends React.Component {
             <div className={Styles.container}>
                 
                 <Cards data={data}/>
+                <Chart />
 
             </div>
 
