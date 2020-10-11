@@ -7,7 +7,6 @@ import styles from "./Cards.module.css";
 
 const Cards = (props) => {
   // destructuring props here
-  // console.log(props.data)
   const {
     data: { confirmed, deaths, recovered, lastUpdate },
   } = props;
